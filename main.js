@@ -1,19 +1,34 @@
 console.log("Aprendendo lógica com javascript");
 console.log("===================");
 
-/*
-let idade = 18;
+// VARIAVEIS
+let nome = "Pedro"
+let idade = 18
+console.log("Seja bem-vindo,", nome, " e a idade é ", idade)
 
-if (idade >= 18) {
-    console.log("maior da idade.")
-} else {
-    console.log("menor de idade")
+// ESTRUTURA CONDICIONAL
+if (idade >= 18){
+    console.log(nome, " já pode dirigir.")
+} else{
+    console.log("não pode dirigir.")
 }
-*/
 
-let contador = 1;
+/**
+ * ==
+ * >
+ * <
+ * >=
+ * <=
+ * && E
+ * || OU
+ */
 
-while (contador <= 5) {
-    console.log(contador);
-    contador++;
+let nota = 10
+
+if (nota >= 9){
+    console.log("Excelente")
+} else if(nota <= 7 && nota == 8){
+    console.log("BOM")
+}else{
+    console.log("reprovado")
 }

@@ -1,0 +1,29 @@
+lógica de programação é a forma de organizar instruções para que o computador resolva um problema.
+
+Entrada de dados - recebe informações
+Processamento - aplicar regras e cálculos
+Saída - Mostra o resultado
+
+VARIÁVEIS
+
+let - valor pode sofrer mudanças
+const - valor NÃO pode mudar.. é 'fixo'
+
+EXEMPLOS
+
+/*
+let idade = 18;
+
+if (idade >= 18) {
+    console.log("maior da idade.")
+} else {
+    console.log("menor de idade")
+}
+*/
+
+let contador = 1;
+
+while (contador <= 5) {
+    console.log(contador);
+    contador++;
+}
