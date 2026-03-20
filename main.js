@@ -23,12 +23,3 @@ if (idade >= 18){
  * || OU
  */
 
-let nota = 10
-
-if (nota >= 9){
-    console.log("Excelente")
-} else if(nota <= 7 && nota == 8){
-    console.log("BOM")
-}else{
-    console.log("reprovado")
-}
